@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import getWeather from '../../utilities/apiCalls'
+import { getWeather } from '../../utilities/apiCalls'
 
 class ResortWeather extends Component {
   constructor() {
