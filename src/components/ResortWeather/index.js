@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ResortsContainer from '../ResortsContainer/index.js'
 import { getWeather } from '../../utilities/apiCalls'
 
 class ResortWeather extends Component {
@@ -21,7 +22,7 @@ class ResortWeather extends Component {
   render() {
     return (
       <div>
-
+        <ResortsContainer></ResortsContainer>
       </div>
     )
   }
