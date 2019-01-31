@@ -24,7 +24,7 @@ class ResortWeather extends Component {
   render() {
     return (
       <div>
-        <ResortsContainer></ResortsContainer>
+        <ResortsContainer steamboat={this.state.steamboat}></ResortsContainer>
       </div>
     )
   }
