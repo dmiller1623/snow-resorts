@@ -6,7 +6,7 @@ class ResortWeather extends Component {
   constructor() {
     super();
     this.state = {
-
+      steamboat: {}
     }
   }
 
@@ -16,7 +16,9 @@ class ResortWeather extends Component {
 
   getCurrentWeather = async() => {
    const weather =  await getWeather();
-   console.log(weather)
+   this.setState({
+     steamboat: weather
+   })
   }
 
   render() {
