@@ -1,7 +1,7 @@
 import apiKey from '../../src/apiKey'
 
 export const getWeather = async() => {
-  const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?zip=80487,us&APPID=${apiKey}`);
+  const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?zip=80487,us&units=imperial&APPID=${apiKey}`);
   const weather = response.json();
   return weather
 }
