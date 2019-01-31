@@ -8,10 +8,15 @@ class Resorts extends Component {
     }
   }
 
+  // componentDidMount = () => {
+  //   console.log(this.props)
+  // }
+
   render() {
+    console.log(this.props)
     return (
       <div>
-
+        <h1>{this.props.steamboatWeather.name}</h1>
       </div>
     )
   }
