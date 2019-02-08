@@ -13,10 +13,14 @@ class Resorts extends Component {
   // }
 
   render() {
-    console.log(this.props)
+    console.log(this.props.steamboatWeather.weather[0])
     return (
       <div>
         <h1>{this.props.steamboatWeather.name}</h1>
+        {/* {this.props.steamboatWeather.weather.map(status => {
+          console.log(status)
+          
+        })} */}
       </div>
     )
   }
