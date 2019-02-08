@@ -5,7 +5,7 @@ const ResortsContainer = ({ steamboat }) => {
 
   return (
     <div>
-      <Resorts></Resorts>
+      <Resorts steamboatWeather={steamboat}></Resorts>
     </div>
   )
 }
