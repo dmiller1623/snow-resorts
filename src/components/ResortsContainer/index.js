@@ -1,7 +1,8 @@
 import React from 'react'
 import Resorts from '../Resorts'
 
-const ResortsContainer = ({ steamboat }) => {
+const ResortsContainer = (steamboat) => {
+  console.log(steamboat.steamboat.weather)
 
   return (
     <div>
