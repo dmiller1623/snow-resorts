@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './styles.css'
 
 class Resorts extends Component {
   constructor() {
@@ -13,14 +14,13 @@ class Resorts extends Component {
   // }
 
   render() {
-    console.log(this.props.steamboatWeather.weather[0])
     return (
       <div>
-        <h1>{this.props.steamboatWeather.name}</h1>
-        {/* {this.props.steamboatWeather.weather.map(status => {
-          console.log(status)
-          
-        })} */}
+        <h1 className='resort-name'>{this.props.steamboatWeather.name}</h1>
+        <h1>Current: </h1>
+        <h1>Low: </h1>
+        <h1>High: </h1>
+        <h1>Overnight Snowfall: </h1>
       </div>
     )
   }
