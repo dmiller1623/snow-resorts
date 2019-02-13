@@ -15,7 +15,7 @@ class Resorts extends Component {
 
   render() {
     return (
-      <div>
+      <div className='resort-section'>
         <h1 className='resort-name'>{this.props.steamboatWeather.name}</h1>
         <h1>Current: </h1>
         <h1>Low: </h1>
