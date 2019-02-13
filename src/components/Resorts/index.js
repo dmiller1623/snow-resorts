@@ -9,18 +9,16 @@ class Resorts extends Component {
     }
   }
 
-  // componentDidMount = () => {
-  //   console.log(this.props)
-  // }
 
   render() {
     return (
-      <div>
+      <div className='resort-section'>
         <h1 className='resort-name'>{this.props.steamboatWeather.name}</h1>
         <h1>Current: </h1>
         <h1>Low: </h1>
         <h1>High: </h1>
         <h1>Overnight Snowfall: </h1>
+        <a href='https://www.steamboat.com/'></a>
       </div>
     )
   }

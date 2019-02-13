@@ -1,3 +1,9 @@
 .resort-name {
   color: blue;
 }
+
+.resort-section {
+  width: 20rem;
+  height: 20rem;
+  border: 2px solid black;
+}
