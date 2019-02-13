@@ -9,9 +9,6 @@ class Resorts extends Component {
     }
   }
 
-  // componentDidMount = () => {
-  //   console.log(this.props)
-  // }
 
   render() {
     return (
@@ -21,6 +18,7 @@ class Resorts extends Component {
         <h1>Low: </h1>
         <h1>High: </h1>
         <h1>Overnight Snowfall: </h1>
+        <a href='https://www.steamboat.com/'></a>
       </div>
     )
   }
