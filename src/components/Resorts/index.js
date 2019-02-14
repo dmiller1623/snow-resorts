@@ -18,7 +18,7 @@ class Resorts extends Component {
         <h1>Low: </h1>
         <h1>High: </h1>
         <h1>Overnight Snowfall: </h1>
-        <a href='https://www.steamboat.com/'></a>
+        <a className='resort-link' href='https://www.steamboat.com/'>Steamboat Site</a>
       </div>
     )
   }

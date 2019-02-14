@@ -7,3 +7,7 @@
   height: 20rem;
   border: 2px solid black;
 }
+
+.resort-link {
+  text-decoration: none;
+}
